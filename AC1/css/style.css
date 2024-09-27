@@ -42,6 +42,16 @@ main {
     border-radius: 40px;
     background-color: #333333;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.text button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.text button:hover {
+    background-color: black;
 }
 
 .icon {
