@@ -1,0 +1,112 @@
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+}
+
+.text {
+    height: 467px;
+    width: 495px;
+    margin-top: 135px;
+    margin-left: 120px;
+    margin-right: 45px;
+}
+
+.text h1 {
+    height: 43px;
+    width: 495px;
+    font-size: 36px;
+    color: #333333;
+}
+
+.text p {
+    height: 60px;
+    width: 487px;
+    margin-top: 24px;
+    margin-bottom: 35px;
+    font-size: 17px;
+    color: #333333;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.text button {
+    height: 66px;
+    width: 222px;
+    margin-left: 132px;
+    font-size: 22px;
+    border-radius: 40px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.icon {
+    display: flex;
+    margin-top: 91px;
+    align-items: center;
+}
+
+.icon img {
+    height: 148px;
+    width: 148.9;
+}
+
+.icon1 {
+    margin-right: 24.15px;
+}
+
+.icon2 {
+    margin-right: 24.15px;
+}
+
+.coluna1 img {
+    display: flex;
+    height: 348px;
+    width: 302px;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 40px;
+}
+
+.coluna2 img {
+    display: flex;
+    height: 348px;
+    width: 302px;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 40px;
+}
+
+.img1 {
+    margin-top: 42px;
+    margin-bottom: 48px;
+    margin-right: 48px;
+}
+
+.img3 {
+    margin-top: 123px;
+    margin-bottom: 48px;
+    margin-right: 48px;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-regular-medium {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
