@@ -22,11 +22,10 @@ body, html {
     border-color: gray;
 }
 
-.button{
-    margin-top: 50px;
-    margin-right: 600px;
-    margin-left: 600px;
-    margin-bottom: 50px;
+.button {
+    max-width: 200px;
+    margin: 50px auto;
+    display: block;
 }
 
 footer {
