@@ -1,0 +1,40 @@
+ 
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+        
+.container {
+    flex: 1;
+}
+
+.teste {
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    border-radius: 5px; 
+}
+
+.search{
+    border-color: gray;
+}
+
+.button{
+    margin-top: 50px;
+    margin-right: 600px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #000000; 
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
