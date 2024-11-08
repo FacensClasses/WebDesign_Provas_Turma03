@@ -13,10 +13,9 @@ document.getElementById('productForm').addEventListener('submit', function(e) {
     const title = document.getElementById('title').value;
     const cardContainer = document.getElementById('cardContainer');
     const card = document.createElement('div');
-    card.classList.add('col-md-4', 'mb-4');
     const randomImageUrl = `https://picsum.photos/200?random=${Math.floor(Math.random() * 1000)}`;
     card.innerHTML = `
-        <div class="card">
+        <div class="card m-2">
             <img src="${randomImageUrl}" class="card-img-top" alt="Imagem aleatória">
             <div class="card-body">
                 <h5 class="card-title">${title}</h5>
